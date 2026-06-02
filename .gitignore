@@ -1,0 +1,11 @@
+# Runtime artifacts
+.transcripts/
+.tasks/
+__pycache__/
+*.pyc
+
+# IDE / tooling
+.claude/
+
+# Do NOT ignore .env (local model config, no secrets)
+!.env
